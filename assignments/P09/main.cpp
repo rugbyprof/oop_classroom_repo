@@ -1,4 +1,13 @@
 #include <SFML/Graphics.hpp>
+#include <iostream>
+
+using namespace std;
+
+class HelpMe{
+    HelpMe(){
+        cout<<"dammit";
+    }
+};
 
 int main()
 {
